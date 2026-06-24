@@ -7,7 +7,7 @@ import kotlin.test.assertTrue
 
 class MainViewModelTest {
 
-    /*
+
     @Test
     fun testLoadPhotographerRealAPI() = runTest {
         val api = PhotographerAPI()
@@ -17,5 +17,5 @@ class MainViewModelTest {
 
         assertTrue(viewModel.errorMessage.value.isEmpty(), "L'API a renvoyé une erreur")
     }
-    */
+
 }
