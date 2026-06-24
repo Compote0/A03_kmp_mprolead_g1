@@ -104,6 +104,7 @@ kotlin {
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0")
         }
         jvmMain.dependencies {
             implementation(compose.desktop.currentOs)
