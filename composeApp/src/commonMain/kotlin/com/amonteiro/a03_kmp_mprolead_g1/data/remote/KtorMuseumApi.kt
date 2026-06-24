@@ -23,7 +23,7 @@ data class MuseumDTO(
     val primaryImage: String,
 )
 
-suspend fun main() {
+suspend fun testMuseum() {
     println(KtorMuseumApi.loadMuseums().joinToString(separator = "\n\n"))
 
     //Pour que le programme s'arrête, inutile sur Android
